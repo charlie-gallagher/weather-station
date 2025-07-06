@@ -133,7 +133,6 @@ float get_buffer_average(CircularBuffer* cb) {
 
     int buffer_sum = 0;
     int n_items = cb->size;
-    float buffer_avg;
 
     if (is_empty(cb)) {
         printf("Buffer is empty.\n");
